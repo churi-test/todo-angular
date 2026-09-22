@@ -4,6 +4,7 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
+    "rootDir": "./src", // cuál es la carpeta raiz, donde vivirá todo el código
     "types": []
   },
   "include": [

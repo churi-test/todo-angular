@@ -1,0 +1,74 @@
+#todo_list  {
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /*separacion por columna*/
+}
+
+#list_title {
+    font-family: "Fraunces";
+    font-weight: 700;
+}
+
+#task_actions {
+    display: flex;
+    gap: 20px;
+}
+
+#task_name {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid hsl(228, 12%, 48%);
+}
+
+#task_add {
+    background-color: #333;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#tasks_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tasks {
+    padding: 15px;
+    border: 1px solid hsl(228, 12%, 48%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.task_Name {
+    width: 100%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+.completed_task {
+    text-decoration: line-through;
+}
+
+.task_delete {
+    color:  hsl(228, 12%, 48%);
+    cursor: pointer;
+}
+
+#task_counter {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
