@@ -1,59 +1,54 @@
-# TodoAngular
+# Proyecto ° To-DO list
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.8.
+## 1. Objetivo
 
-## Development server
+- Contrucción de fundamentos aplicados (CSS, Javascript/Typecript, HTML) con Angular para frontend
+- Desarrollo de una aplicación base para administrar tareas personales
 
-To start a local development server, run:
+## 3. Demo
 
-```bash
-ng serve
+![Tests running](/src/app/docs/todo-list.gif)
+
+**Prueba aquí:** [ToDo-List](https://todo-list-jca.vercel.app/)
+
+## 4. Funcionalidades
+
+- Agregar una tarea
+- Marcar como completada
+- Eliminar una tarea
+- Mostrar cantidad de tareas (total, completadas y pendientes)
+
+## 5. Conceptos aplicados
+
+- Componentes
+- Templates
+- Interpolación `{{ }}`
+- Variables de referencia `#taskName`
+- Event Binding `(click)=""`
+- Propery Binding `[checked]=""`
+- Class Binding `[class.completed_task]=""`
+- Control de flujo `@for y $index`
+- Typescritpt: Interfaz, clase y sincronización de estado
+
+## 6. Estructura - proyecto
+
+```
+todo-angular/
+├── src/app/
+    ├── app.ts    (Funciones & lógica)
+    ├── app.html  (Estrucutura html)
+    ├── app.css   (Diseño UI)
+└── src/app/
+    ├── model/task.ts (Modelo de tarea)  
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
+## Proyecto
+~ Elaborado por Jhon Churivanti Alva
 
-## Code scaffolding
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jhon-churivanti-alva/)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:churivantialvajhonn@gmail.com)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+*Gracias señor mío, por permitirnos conocer todo lo que hoy existe, porque sé que tú eres el dueño del conocimiento y de la vida | Somos seres humanos, pero aún hay tiempo para buscarlo diaramente. Dios te bendiga, solo ora y él te escuchará.*
